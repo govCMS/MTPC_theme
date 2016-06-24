@@ -1,0 +1,246 @@
+.clear {
+    clear: both;
+}
+
+.bee-metabox-wrap {
+    background: #f8f8f8;
+    border: solid 1px #e2eaed;
+    padding: 15px;
+    margin-bottom: 5px;
+    display: block;
+    position: relative;
+    cursor: move;
+}
+
+#bee-appendo-wrap .slide-highlight {
+    display: block;
+    padding: 15px;
+    height: 300px;
+    background: #e2eaed;
+    border: dashed 1px #65bfe1;
+    margin-bottom: 5px;
+}
+
+.sm-option {
+    margin: -15px -15px -15px 0;
+    float: right;
+    height: 100%;
+    padding-bottom: 30px;
+    width: 25px;
+    cursor: move;
+    display: block;
+}
+
+.sm-option-delete {
+    cursor: pointer;
+    border-top: 1px solid #e2eaed;
+    border-left: 1px solid #e2eaed;
+    background: #fff url(http://cdn3.iconfinder.com/data/icons/basicset/delete_16.png) no-repeat center;
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin-left: -1px;
+    bottom: 0;
+    position: absolute;
+    outline: none;
+    text-indent: -9999px;
+}
+
+.sm-image {
+    width: 130px;
+    padding-right: 10px;
+    float: left;
+}
+
+.sm-image-thumb {
+    width: 117px;
+    height: 117px;
+    background: white;
+    border: solid 1px #e2eaed;
+    margin: 10px 0px;
+    padding: 4px;
+}
+
+.sm-upload-button-frame {
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+
+.sm-upload-button {
+    padding: 9px 20px;
+    position: relative;
+    margin-bottom: 5px;
+    text-shadow: 1px -1px 0 #1e6795;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background: #4585a6 url(../images/button-bg-opacity.png) repeat-x;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #1e6a95;
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.sm-upload-button:hover {
+    background: #5391b1 url(../images/button-bg-opacity.png) repeat-x;
+    text-decoration: none;
+    color: white;
+}
+
+.sm-content {
+    cursor: default;
+    float: left;
+    width: 280px;
+    padding: 10px 10px 0px 10px;
+    background: white;
+    border: solid 1px #e2eaed;
+    position: relative;
+}
+
+.sm-content input, .sm-content textarea, .sm-content select {
+    margin: 10px 0px 10px 0px;
+    padding: 7px !important;
+    position: relative;
+
+    width: 279px;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    border-color: #DFDFDF;
+    background-color: white;
+    color: #586970;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.sm-content select {
+    padding: 7px;
+    height: 32px !important;
+}
+
+.sm-content textarea {
+    height: 100px;
+}
+
+.bee-metabox-border {
+    padding: 6px;
+    text-align: center;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background: #f3f3f3;
+    position: relative;
+    display: inline-block;
+    margin: 10px 0px 10px 0px;
+}
+
+.bee-metabox-border input, .bee-metabox-border select {
+    margin: 0px;
+    width: 267px;
+}
+
+.appendoButtons {
+    background: #f8f8f8;
+    border: solid 1px #e2eaed;
+    padding: 15px;
+    margin-bottom: 5px;
+    display: block;
+    position: relative;
+    text-align: right;
+}
+
+.appendoButtonsdiv, .appendoButtons-embed {
+    padding: 9px 15px;
+    width: 120px;
+    float: left;
+    margin-right: 10px;
+    text-shadow: 1px -1px 0 #568622;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background: #659a2b url(../images/button-bg-opacity.png) repeat-x;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #568622;
+    color: white;
+    font-size: 11px;
+}
+
+.appendoButtonsdiv:hover, .appendoButtons-embed:hover {
+    color: white;
+    background: #73a33f url(../images/button-bg-opacity.png) repeat-x;
+}
+
+.sm-upload-input {
+    display: none;
+}
+
+.sm-remove-image {
+    position: absolute;
+    text-indent: -9999px;
+    outline: none;
+    width: 20px;
+    height: 20px;
+    background: url(http://cdn3.iconfinder.com/data/icons/basicset/delete_16.png) no-repeat center;
+    bottom: -10px;
+    left: -10px;
+}
+
+.sm-image-thumb-in {
+    position: relative;
+}
+
+.sm-embed-image {
+    background: url(../../images/video-embeds.jpg) no-repeat center;
+    width: 100%;
+    height: 100%;
+}
+
+/* GENERAL STYLE */
+.bee-meta-box-frame {
+    background: #f8f8f8;
+    border: solid 1px #e2eaed;
+    padding: 0px 15px 0px 15px;
+    margin-bottom: 5px;
+    display: block;
+    position: relative;
+}
+
+.bee-meta-box-div {
+    margin: 20px 0px 30px 0px;
+    position: relative;
+}
+
+.bee-metabox-border-2 {
+    padding: 6px;
+    text-align: center;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background: #f3f3f3;
+    position: relative;
+    display: inline-block;
+    margin: 10px 0px 5px 0px;
+}
+
+.bee-metabox-border-2 select {
+    margin: 0px;
+    width: 225px;
+    padding: 5px !important;
+    height: 31px !important;
+}
+
+.bee-metabox-description {
+    font-style: italic;
+    color: #666;
+}

@@ -1,0 +1,19 @@
+@charset "utf-8";
+/*
+Theme Name: Umbrella
+Version: 1.0
+Author: madars.bitenieks
+License: GNU GENERAL PUBLIC LICENSE Version 2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Description: WordPress Premium Theme Umbrella for corporate or portfolio
+Theme URI: http://madza.afloy.com/templates/umbrella/
+Tags:Corporate, Business, Portfolio, Clean, White
+Author URI:http://themeforest.net/user/madza
+*/
+@import "css/general.css";
+@import "css/navigations.css";
+@import "css/footer.css";
+@import "css/plugins.css";
+@import "css/typography.css";
+@import "css/widgets.css";
+@import "css/shortcodes.css";

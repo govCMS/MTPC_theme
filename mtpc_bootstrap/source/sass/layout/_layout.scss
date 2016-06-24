@@ -1,0 +1,37 @@
+// Theme Customizations for Region/Layout changes //
+body {
+  background: url('../../images/custombg.jpg') 0 0;
+  background-attachment: fixed;
+}
+
+.container {
+  background: $white;
+}
+
+.footer {
+  padding: 20px 0;
+  background: $gray-lighter;
+  border-top: 1px solid $gray-light;
+  .menu {
+    display: table;
+    margin: 0 auto;
+    li {
+      display: table-cell;
+      a {
+        font-size: 11px;
+        color: $gray-3;
+      }
+    }
+  }
+}
+
+.main-content-wrap {
+  section {
+    .region-content {
+      padding: 15px 0 30px 20px;
+    }
+  }
+  .right-sidebar {
+    padding: 0 30px 30px;
+  }
+}

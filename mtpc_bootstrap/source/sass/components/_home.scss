@@ -1,0 +1,28 @@
+.front {
+  h1 {
+    text-align: center;
+  }
+}
+.home-tile {
+  width: 276px;
+  margin: auto 10px;
+  display: inline-block;
+  text-align: center;
+  h1 {
+    font-size: $body-font-h1-size;
+    text-align: center;
+    color: $dark-blue;
+  }
+  img {
+    margin: 0 auto;
+  }
+  p {
+    text-align: justify;
+  }
+}
+
+.page-header {
+  .front & {
+    display: none;
+  }
+}

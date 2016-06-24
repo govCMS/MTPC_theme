@@ -1,0 +1,32 @@
+.region-sidebar-second {
+  #block-bean-mtpc-webform-feedback {
+    h2 {
+      @extend .hidden;
+    }
+    .webform-client-form {
+      margin: 0;
+      padding: 5px 14px 30px;
+      border: 1px solid $white-3;
+      border-radius: 3px;
+      background-color: $gray-light-6;
+      p {
+        font-size: $font-size-h3;
+      }
+      .btn-primary {
+        font: 12px/14px 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        background: $gray-light-7;
+        color: $gray-2;
+        border: 0;
+      }
+      .form-text,
+      .form-textarea {
+        padding: 3px 0;
+        border: 1px solid $gray-4;
+        border-radius: 3px;
+        background: none repeat scroll 0 0 $gray-light-8;
+        height: auto;
+      }
+    }
+  }
+}
+

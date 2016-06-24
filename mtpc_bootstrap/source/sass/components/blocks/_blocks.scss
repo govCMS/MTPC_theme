@@ -1,0 +1,33 @@
+.region-sidebar-second {
+  h2 {
+    &.block-title {
+      font-size: $font-size-h3;
+      color: $gray-base;
+      padding: 0;
+    }
+  }
+  .menu {
+    &.nav {
+      li {
+        padding: 8px 0 8px 15px;
+        margin: 0;
+        color: $gray-2;
+        overflow: hidden;
+        background: url('../../images/arrow-right-for-cat.png') no-repeat left center;
+        border-bottom: 1px solid $gray-light-2;
+        a {
+          padding: 0;
+          @include transition(all .25s ease-in-out);
+          &:hover {
+            background: none;
+            @include translate(7px, 0)
+          }
+        }
+      }
+    }
+  }
+}
+
+.block-bean {
+  margin-top: 15px;
+}

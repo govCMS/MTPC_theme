@@ -1,0 +1,50 @@
+.navbar-header {
+  float: none;
+}
+
+.logo {
+  display: block;
+  padding: 5px 20px 10px;
+}
+
+.navbar-collapse {
+  position: relative;
+}
+
+.menu-search {
+  width: 200px;
+  height: 40px;
+  border-left: solid 1px $gray-light-2;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  .form-text {
+    display: block;
+    margin: 6px 0 0 6px;
+    border: 1px solid $gray-light;
+    height: 30px;
+    float: left;
+    padding: 5px 10px;
+    background: none;
+    font-size: 12px;
+  }
+  .btn {
+    background: none;
+    color: $gray-base;
+    display: block;
+    border: 0;
+    margin-top: 3px;
+  }
+  button {
+    float: right;
+    cursor: pointer;
+    border: 0;
+    background: url('../../images/search-icon.png') no-repeat center !important;
+    text-indent: -10000px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    z-index: 2;
+  }
+}

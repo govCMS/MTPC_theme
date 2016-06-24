@@ -1,0 +1,20 @@
+// Theme Customizations to Forms/Webforms //
+
+#block-bean-mtpc-webform-comment-form {
+  .webform-submit {
+    background-color: $white;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    font-size: 11px;
+    display: inline-block;
+    color: $gray-5;
+    border: solid 1px $gray-light-9;
+    line-height: 1.6em;
+    padding: 5px 15px;
+    @include border-top-radius(20px);
+    @include border-bottom-radius(20px);
+    @include border-left-radius(20px);
+    @include border-right-radius(20px);
+    @include box-shadow(0 2px 2px 1px rgba(0, 0, 0, .05));
+  }
+}

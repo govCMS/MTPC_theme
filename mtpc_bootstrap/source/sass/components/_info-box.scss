@@ -1,0 +1,12 @@
+.info_box {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: $light-blue;
+  border: $light-blue-2 solid 1px;
+  color: $dark-blue-2;
+  p {
+    margin: 10px 0 0;
+    padding: 0;
+    color: $gray-base;
+  }
+}
